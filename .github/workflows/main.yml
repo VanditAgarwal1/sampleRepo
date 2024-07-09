@@ -15,6 +15,9 @@ jobs:
       - name: Run build
         uses: matlab-actions/run-build@v2.4.0
 
+      - name: Run build2
+        uses: matlab-actions/run-build@v2.4.0  
+
   my-second-job:
     name: Run MATLAB Script Again
     runs-on: ubuntu-latest
