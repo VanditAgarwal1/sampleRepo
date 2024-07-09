@@ -15,6 +15,7 @@ function checkTask(~)
 % assert(isempty(issues.Issues),formattedDisplayText( ...
 %    issues.Issues(:,["Location" "Severity" "Description"])))
 disp('In check task');
+e;
 end
 
 function testTask(~)
